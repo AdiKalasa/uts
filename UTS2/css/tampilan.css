@@ -385,7 +385,7 @@
 }
 
 /* popup */
-.popup {
+.popup, .popup2 {
   width: 50%;
   /* height: 50vh; */
   background-color:  hsl(218, 43%, 87%);
@@ -446,11 +446,11 @@
   transform: translateX(-50%);
   margin-bottom: 30px;
 }
-#popup:target {
+#popup:target,#popup2:target {
   opacity: 1;
   visibility: visible;
 }
-#popup:target .popup-content {
+#popup:target .popup-content, #popup2:target .popup-content {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
